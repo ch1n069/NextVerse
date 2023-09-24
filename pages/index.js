@@ -22,7 +22,6 @@ const DUMMY_MEETUPS = [
 function HomePage() {
   return (
     <>
-      <Layout />
       <MeetupList meetups={DUMMY_MEETUPS} />
     </>
   );
